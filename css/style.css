@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.fundo{
+    display: flex;
+    flex-wrap: wrap;
+    background-size: cover;
+    justify-content: center;
+    width: 100%;
+    height: 640px;
+    background-image: url("../img/fundo2.jpg");
+    align-items: center;
+
+}
+
+.login{
+    background-color: aliceblue;
+    width: 30%;
+    margin-top:5%;
+    margin-bottom: 5%;
+    border-radius: 20px;
+    justify-content: center;
+    display: flex;
+    box-shadow: 5px 5px 5px black;
+}
+.nomelogin{
+    margin-top: 20px;
+    margin-left: 35%;
+    color: #929292;
+}
+.password{
+    margin-top: 10%;
+    margin-left: 25%;;
+    color: #929292;
+}
+[type="text"]{
+    width: 100%;
+    padding: 2%;
+    margin-bottom: 6%;
+    border: 1px solid rgba(31, 163, 97, 0.59);
+    background-color: #f3f2f2;
+    border-radius: 5px;
+    outline-color: rgba(31, 163, 97, 0.59);
+}
+[type="password"]{
+    width: 100%;
+    padding: 2%;
+    margin-bottom: 6%;
+    border: 1px solid rgba(31, 163, 97, 0.59);
+    background-color: #f3f2f2;
+    border-radius: 5px;;
+    outline-color: rgba(31, 163, 97, 0.59);
+}
+
+.criar,.esq{
+    color:  rgba(31, 163, 97, 0.59);
+}
